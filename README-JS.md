@@ -1,4 +1,6 @@
-# angular-seed — the seed for AngularJS apps
+# POC - USER - angular-seed — the seed for AngularJS apps
+
+AngularJS using TypeScript that has User section
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these

@@ -4,9 +4,9 @@ class View1Controller{
     static $inject = ['$scope'];
 
     constructor($scope){
-    	$scope.txtFirstName = 'sgdsgsdg';
-    	$scope.txtLastName = 'sgdsgsdg';
-    	$scope.txtZipCode = 'sgdsgsdg';
+    	$scope.txtFirstName = '';
+    	$scope.txtLastName = '';
+    	$scope.txtContactNo = '';
     }
 
 }
