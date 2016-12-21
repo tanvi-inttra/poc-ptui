@@ -1,13 +1,15 @@
-<p>This is the partial for view 1.</p>
+
+<h3>This Application has 2 validation modules :: </h3>
+<h3>1. ValidateString :: This module is present in this project (POC-USER)</h3>
+<h3>2. ValidateNumber :: This module is referenced from POC-ADDRESS git project. </h3>
 
 <div class="wrapper">
   <form>
-    <div>First Name : <input type="text" ng-model="txtFirstName"></div>
-    <br/>
-    <div>Last Name : <input type="text" ng-model="txtLastName"></div>
-    <br/>
-    <div>Contact Number : <input type="text" ng-model="txtContactNo" validate-number></div>
+  	<div class="lbl">First Name : <span>(has character validation)</span></div>
+  	<div><input type="text" ng-model="txtFirstName" validate-string></div>
+  	<div class="lbl">Last Name : <span>(has character validation)</span></div>
+    <div><input type="text" ng-model="txtLastName" validate-string></div>
+  	<div class="lbl">Contact Number : <span>(has number validation from <b>poc-address</b> git project)</span></div>
+  	<div><input type="text" ng-model="txtContactNo" validate-number></div>
   </form>
 </div>
-
-<br/>
